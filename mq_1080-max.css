@@ -1,0 +1,23 @@
+.bridgesec {
+  border: 1px solid red;
+  display: block;
+  padding: 0px;
+}
+
+.bridgeimg {
+  height: 15em;
+  padding: 0px;
+  background-position: center;
+}
+
+.umbrellasec {
+  /* border: 1px solid red; */
+  display: block;
+  padding: 0px;
+}
+
+.umbrellaimg {
+  height: 15em;
+  padding: 0px;
+  background-position: center;
+}
