@@ -1,8 +1,6 @@
 /* font-family: 'Kotta One', serif;
 font-family: 'Cantarell', sans-serif; */
 
-REFACTOR NOW USING FLEXBOX
-
 html, body {
   margin: 0;
   padding: 0;
@@ -11,11 +9,7 @@ html, body {
   /* border: 2px solid blue; */
 }
 
-body {
-  position: relative;
-}
-
-section {
+.atf {
   /* border: 2px solid red; */
   height: 100vh;
   width: 100%; */
@@ -47,20 +41,20 @@ button {
 
 }
 
-a:link {
+a.button:link {
   color: white;
   text-decoration: none;
 }
 
-a:visited {
+a.button:visited {
   color: white;
 }
 
-a:hover {
+a.button:hover {
   color: lightgrey;
 }
 
-a:active {
+a.button:active {
   color: skyblue;
 }
 
@@ -83,25 +77,42 @@ nav {
 
 }
 
-ul {
+.navul {
   display: flex;
   justify-content: center;
   list-style-type: none;
 
 }
 
-li {
+.navli {
   padding-right: 50px;
   font-size: 20px;
 }
 
-.header {
+a.navl:link {
+  color: black;
+  text-decoration: none;
+}
+
+a.navl:visited {
+  color: #6592A8;
+}
+
+a.navl:hover {
+  color: #7EB68C;
+}
+
+a.navl:active {
+  color: #C2B4E0;
+}
+
+.headers {
   /* border: 2px solid grey; */
   text-align: center;
   background-color: lightgrey;
 }
 
-.bri {
+.bridgesec {
   /* border: 1px solid red; */
   display: flex;
   justify-content: center;
@@ -109,13 +120,13 @@ li {
   padding: 10px;
 }
 
-.bridge {
+.bridgeimg {
   height: 20em;
   padding: 40px;
 }
 
 
-.umb {
+.umbrellasec {
   /* border: 1px solid red; */
   display: flex;
   justify-content: center;
@@ -123,13 +134,26 @@ li {
   padding: 10px;
 }
 
-.umbrella {
+.umbrellaimg {
   height: 20em;
   padding: 40px;
 }
 
 
 footer {
-  height: 60px;
+  height: 200px;
   background-color: darkgrey;
+  display: flex;
+
+}
+
+.footerlist {
+  padding-left: 100px;
+  flex-direction: column;
+  list-style: none;
+
+}
+
+.footerli {
+  font-size: 15px;
 }
