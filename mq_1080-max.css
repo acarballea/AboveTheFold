@@ -1,5 +1,4 @@
 .bridgesec {
-  border: 1px solid red;
   display: block;
   padding: 0px;
   text-align: center;
@@ -12,7 +11,8 @@
 }
 
 .umbrellasec {
-  display: block;
+  display: flex;
+  flex-flow: column-reverse;
   padding: 0px;
   text-align: center;
 }
