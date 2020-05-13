@@ -30,6 +30,7 @@ html, body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   color: white;
 }
 
@@ -82,7 +83,7 @@ nav {
   display: flex;
   justify-content: center;
   list-style-type: none;
-
+  width: 30%;
 }
 
 .navli {
