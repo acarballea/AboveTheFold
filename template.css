@@ -1,0 +1,142 @@
+/* font-family: 'Kotta One', serif;
+font-family: 'Cantarell', sans-serif; */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Cantarell', sans-serif;
+  /* border: 2px solid blue; */
+}
+
+.atf {
+  /* border: 2px solid red; */
+  height: 25vh;
+  width: 100%; */
+  /*background*/
+  background-color: darkgrey;
+  background-image: url(back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-attachment: scroll;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+main {
+  min-height: 100%;
+  overflow: auto;
+  padding-left: 100px;
+  padding-right: 100px;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+nav {
+ height: 60px;
+ width: 100%;
+ background-color: lightgrey;
+ display: flex;
+ justify-content: center;
+
+}
+
+.navul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  width: 30%;
+}
+
+.navli {
+  padding-right: 50px;
+  font-size: 20px;
+}
+
+a.navl:link {
+  color: black;
+  text-decoration: none;
+}
+
+a.navl:visited {
+  color: #6592A8;
+}
+
+a.navl:hover {
+  color: #7EB68C;
+}
+
+a.navl:active {
+  color: #C2B4E0;
+}
+
+.header-a {
+  /* border: 2px solid grey; */
+  text-align: center;
+  background-color: lightgrey;
+}
+
+.header-b {
+  /* border: 2px solid grey; */
+  text-align: center;
+  background-color: lightgrey;
+}
+
+.bridgesec {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.bridgeimg {
+  height: 20em;
+  box-shadow: -14px 14px 5px #383838;
+}
+
+
+.umbrellasec {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.umbrellaimg {
+  height: 20em;
+  box-shadow: 14px 14px 5px #383838;
+}
+
+
+footer {
+  height: 200px;
+  background-color: darkgrey;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerlist {
+  padding-left: 100px;
+  flex-direction: column;
+  list-style: none;
+}
+
+.footerli {
+  font-size: 15px;
+}
