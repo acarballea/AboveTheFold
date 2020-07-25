@@ -34,3 +34,26 @@ main {
   height: 100%;
   width: 100%;
 }
+
+footer {
+  height: 300px;
+  background-color: darkgrey;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerlist1 {
+  padding: 0px 0px 0px 0px;
+  list-style: none;
+}
+
+.footerlist2 {
+  padding: 0px 0px 0px 0px;
+  list-style: none;
+}
+
+.btt {
+  padding: 10px 0px 0px 0px;
+}

@@ -165,10 +165,13 @@ footer {
   list-style: none;
 }
 
-.footerlist {
+.footerlist2 {
   padding-left: 100px;
-  flex-direction: column;
   list-style: none;
+}
+
+.btt {
+  padding-left: 100px;
 }
 
 .footerli {
